@@ -37,5 +37,5 @@ jobs:
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
-        user: __token__
+        user: latinex_dev
         password: pypi-AgEIcHlwaS5vcmcCJDM5Nzk4ZmViLThkMDUtNGVlZi05ZWZmLTdmOGEzNDMxOTA5NwACE1sxLFsibGF0aW5leC1zZGsiXV0AAixbMixbImJmYmVmZjIwLTAwODMtNDM3Mi1hMmI5LTQ0Nzg0MjJjZGNhOCJdXQAABiD4EtnxdL7CiXISyhHKVxb3Uqwj5quWUPFtZ7I7wPUKSA
