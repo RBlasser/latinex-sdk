@@ -7,6 +7,9 @@ jobs:
   build-n-publish:
     name: Build and publish Python 🐍 distributions 📦 to PyPI and TestPyPI
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
 
     steps:
     - uses: actions/checkout@v3
@@ -28,8 +31,6 @@ jobs:
         --wheel
         --outdir dist/
         .
-        permissions:
-        id-token: write
         
     - name: Publish distribution 📦 to Test PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
