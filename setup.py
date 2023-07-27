@@ -13,7 +13,7 @@ LONG_DESCRIPTION = 'This SKD facilitates the use of the Latinex REST API, it all
 
 # Setting up
 setup(
-    name="latinex-sdk",
+    name="latinex_sdk",
     version=VERSION,
     author="Blasser Analytica (Rodolfo Blasser)",
     author_email="<rodolfoblasser@gmail.com>",
