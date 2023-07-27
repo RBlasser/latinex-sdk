@@ -21,11 +21,11 @@ class Utilities:
         return response.text
     
     def welcome():
-        url = urljoin(API_URL,"latinex_developer/welcome")
+        url = urljoin(API_URL,"welcome")
         response = requests.get(url)
-        res = response.json()['respuesta']
+        print(response.text)
         
-        return res
+        return response.status_code
     
     def register(email_address):
         
